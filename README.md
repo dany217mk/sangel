@@ -19,8 +19,8 @@
 
 ## Демонстрация
 
-Видео-демо: [https://drive.google.com/file/d/1FHlrf-TGx1TQ21kxEBXEtn-tH5oyG45_/view?usp=sharing](https://drive.google.com/file/d/1FHlrf-TGx1TQ21kxEBXEtn-tH5oyG45_/view?usp=sharing) <br>
-Перввая версия сайта: [https://github.com/dany217mk/sangel_site](https://github.com/dany217mk/sangel_site) 
+Видео-демо: [https://drive.google.com/file/d/1FHlrf-TGx1TQ21kxEBXEtn-tH5oyG45_/view?usp=sharing](https://drive.google.com/file/d/1alptHKlJDmAcwQ0kQShVtFLKZtz1Ac5E/view?usp=sharing) <br>
+Первая версия сайта: [https://github.com/dany217mk/sangel_site](https://github.com/dany217mk/sangel_site) 
 
 ---
 
