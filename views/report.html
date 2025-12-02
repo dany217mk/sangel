@@ -1,0 +1,19 @@
+<div class="report">
+  <div class="report__block">
+    <div class="report__note-<?= $incident; ?>">
+      <? switch($incident):
+        case '200': ?>
+          <h3>Succes</h3>
+        <? break; case '404': ?>
+          <h3>Not Found</h3>
+        <? break; case '501': ?>
+          <h3>Страница находится в разработке</h3>
+        <? break; case '503': ?>
+          <h3>На сайте ведутся технические работы</h3>
+          <p>На текущий момент наш интернет-ресурс недоступен. Сайт не сломался. Мы просто решили сделать его немного лучше. Обновите страницу немного позже. Все будет работать.</p>
+      <? endswitch; ?>
+      <hr>
+      <span>Если у вас возникли вопросы, пожалуйста, <a href="<?=CONTACT_ADMIN?>" class="report__link" target="_blank">напишите нам</a>. Мы будем рады помочь вам.<span>
+    </div>
+  </div>
+</div>

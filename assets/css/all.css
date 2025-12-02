@@ -1,0 +1,99 @@
+:root{
+  --black: #000;
+  --major_white: #fff;
+  --light_black: #181818;
+  --dark_grey: #636363; 
+  --grey_photo: #8C8C8C;
+  --green: #D5FE46;
+  --red: #FE4141;
+  --gr_T: linear-gradient(90deg, #181818 0%, rgba(24, 24, 24, 0.05) 100%);
+}
+@font-face {
+	font-family: 'MediumCyrillic';
+	src: url(../font/MediumCyrillic.ttf);
+}
+@font-face {
+	font-family: 'Idealist';
+	src: url(../font/Idealist.otf);
+}
+@font-face {
+	font-family: 'IdealistLight';
+	src: url(../font/Idealist-Light.otf);
+}
+html{
+  scroll-behavior: smooth;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'IdealistLight', sans-serif;
+}
+body{
+  background: var(--black);
+}
+.header{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: var(--light_black);
+  z-index: 1000;
+}
+.header__block{
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 220px 11px 35px;
+}
+.logo-block{
+  display: flex;
+  align-items: center;
+}
+.logo-block img{
+  height: 28px;
+}
+.header-links{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+.header-links a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+.header-links li:last-child a{
+  color: var(--green);
+  padding: 5px 27px;
+  border: 2px solid var(--green);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+.header-links li:last-child a:hover{
+  background: var(--green);
+  color: var(--black);
+}
+
+
+
+.footer__block{
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 20px;
+}
+.footer__block div{
+  width: 670px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer__block p, .footer__block a{
+  color: var(--grey_photo);
+}
